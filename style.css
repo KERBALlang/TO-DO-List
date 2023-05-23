@@ -1,0 +1,30 @@
+h1{
+    color: purple;
+    background-color: cyan;
+}
+h2{
+    background-color: cyan;
+}
+nav{
+    background-color: blue;
+}
+ul{
+    background-color: coral;
+}
+li{
+    background-color: red;
+}
+button{
+    background-color: green;
+}
+header{
+    color: white;
+    background-color: black;
+}
+footer{
+    color: white;
+    background-color: black;
+}
+form{
+    background-color: gold;
+}
