@@ -3,6 +3,11 @@ h1{
     background-color: cyan;
 }
 h2{
+    color: purple;
+    background-color: cyan;
+}
+h3{
+    color: purple;
     background-color: cyan;
 }
 nav{
@@ -15,16 +20,41 @@ li{
     background-color: red;
 }
 button{
+    color: gold;
     background-color: green;
+    font-style: bold;
 }
 header{
-    color: white;
+    color: purple;
     background-color: black;
 }
 footer{
-    color: white;
+    color: purple;
     background-color: black;
 }
 form{
     background-color: gold;
+}
+input{
+    color: white;
+    background-color: black;
+}
+div{
+    color: black;
+    background-color: white;
+}
+main{
+    color: white;
+    background-color: black;
+}
+.finished_button{
+    color: black;
+}
+.TO-DO-li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.description{}
+
+#TO-DO-ul{
+
 }

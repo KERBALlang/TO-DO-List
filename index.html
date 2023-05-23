@@ -8,24 +8,36 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>My header</header>
-    <Nav>
-        <h1>My Navigation Bar</h1>
-        <form>
-            <input type="text" value="" placeholder="Name of your new Task">
-            <input type="text" value="" placeholder="Task description">
-            <button type="submit">submit Task</button>
-        </form>
-    </Nav>
-    
-    
-    <ul> 
-        <h2>My TO-DO-List</h2>
-        <li>Task 1</li>
-        <li>Task N</li>
-    </ul>
-    
-    <footer>My Footer</footer>
+    <header>My header
+        <Nav>
+            <h1>My Navigation Bar</h1>
+            <form>
+                <input id="TO-DO_title" type="text" value="" placeholder="Name of your new Task">
+                <input id="TO-DO_description" type="text" value="" placeholder="Task description">
+                <button id="submit_button" type="submit">submit Task</button>
+            </form>
+        </Nav>
+    </header>
+    <main> My Main Body
+        <ul id="TO-DO-ul"> 
+            <h2>My TO-DO-List</h2>
+            <li class="TO-DO-li">
+                <h3>Task 1</h3>
+                <div class="description">description</div>
+                <input type="checkbox" name="started" value="started"> started
+                <button class="finished_button" type="submit">Finished</button>
+            </li>
+            <li class="TO-DO-li">
+                <h3>Task N</h3>
+                <div>description</div>
+                <input type="checkbox" name="started" value="started"> started
+                <button class="finished_button" type="submit">Finished</button>
+            </li>
+        </ul>
+    </main>
+    <footer>My Footer
+
+    </footer>
     <script src="./index.js"></script>    
 </body>
 </html>
